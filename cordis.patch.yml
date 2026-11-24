@@ -1,0 +1,5 @@
+# dsh-glass-shell bundle layer.
+# Inserting the entry is what loads index.js (Host) + client.js (browser).
+- insert:
+    - id: dsh-glass-shell
+      name: dsh-glass-shell

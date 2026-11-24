@@ -1,0 +1,49 @@
+{
+  "name": "dsh-glass-shell",
+  "version": "0.5.0",
+  "type": "module",
+  "description": "毛玻璃外壳：把侧边栏、输入框、卡片与弹层换成磨砂玻璃，模糊/透明度可调，背景可跟随主题、自选颜色、渐变或上传图片；配置镜像进插件目录的 store.json，换机器连同文件夹拷走即可。",
+  "icon": "icon.svg",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "store.json",
+    "docs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "theme",
+    "glass",
+    "glassmorphism"
+  ],
+  "license": "MIT",
+  "author": "Acct-unknow",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acct-unknow/dsh-glass-shell.git"
+  },
+  "homepage": "https://github.com/Acct-unknow/dsh-glass-shell#readme",
+  "bugs": {
+    "url": "https://github.com/Acct-unknow/dsh-glass-shell/issues"
+  }
+}

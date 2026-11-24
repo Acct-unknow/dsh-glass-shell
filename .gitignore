@@ -1,0 +1,13 @@
+# 个人配置快照：包含背景图片和色板，只属于本机，不进仓库
+store.json
+store.json.tmp
+
+# 打包产物
+dist/
+*.zip
+
+# 依赖与杂项
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
